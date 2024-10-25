@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #d5ff40;
+}
+nav {
+    width: 100%;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .part2 {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+nav h2 {
+    font-size: 300%;
+}
+nav a{
+    font-weight: 500;
+    font-size: 150%;
+    color: #000;
+    text-decoration: none;
+}
+/* section{
+    padding: 100px 100px;
+} */
+section .bigText01{
+    background-color: red;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bigText01 h1{
+    padding-left: 20%;
+    font-size: 150px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 200px; /* Increases height of the text without affecting the background */
+}
+.bigText01 .video{
+    position: relative;
+    height: 185px;
+    width: 500px;
+    margin: 1%; /* For making .video to show up at center, without touching the borders*/
+    margin-right: 100px;
+    background-color: #000;
+    border-radius: 100px;
+    background-image: url(https://images.unsplash.com/photo-1729553035668-3156225f07dc?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: right;
+    padding: 5px; /*To give padding, so that play button can be placed*/
+}
+.video .play{
+    height: 100%;
+    width: 40%;
+    background-color: #000;
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+section .bigText02{
+    background-color: blue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bigText02 h1{
+    padding-left: 20%;
+    font-size: 150px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bigText02 p{
+    position: relative;
+    font-size: 30px;
+    height: 185px;
+    width: 500px;
+    margin: 1%; /* For making .video to show up at center, without touching the borders*/
+    margin-right: 90px;
+}
