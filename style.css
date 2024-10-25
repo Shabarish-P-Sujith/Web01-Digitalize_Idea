@@ -72,6 +72,14 @@ section .bigText01{
     background-color: #000;
     border: 10px solid #fff;
     border-radius: 50%;
+
+    display: flex;              /*For making the .play class a Flex, so that*/
+    align-items: center;        /*icon i can fit inside it in Center*/
+    justify-content: center;
+}
+.play i{
+    font-size: 600%;
+    color: #fff;
 }
 section .bigText02{
     background-color: blue;
