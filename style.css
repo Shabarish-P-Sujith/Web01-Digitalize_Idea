@@ -40,7 +40,7 @@ nav a{
     padding: 100px 100px;
 } */
 section .bigText01{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -82,7 +82,7 @@ section .bigText01{
     color: #fff;
 }
 section .bigText02{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -101,4 +101,14 @@ section .bigText02{
     width: 500px;
     margin: 1%; /* For making .video to show up at center, without touching the borders*/
     margin-right: 90px;
+}
+section .image{
+    height: 1000px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: green;
+    background-image: url(https://images.unsplash.com/photo-1633428620790-99dc3ca163e4?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
 }
